@@ -1,1 +1,1 @@
-# Web-Bootcamp
+# Javascript-Exercises
