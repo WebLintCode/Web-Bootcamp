@@ -1,0 +1,74 @@
+.user-buttons {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+    transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.user-buttons:hover,
+.user-buttons:focus {
+    background: #0053ba;
+}
+
+.user-buttons:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.user-buttons:active {
+    transform: scale(0.99);
+}
+
+input[type=text] {
+  width: 60%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../images/searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-left: 10%;
+}
+
+li {
+    list-style: none;
+    margin-top: 30px;
+    -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+    border : 1px solid #cccccc;
+    width  : 28%;
+    margin-left: 30%;
+    border-radius : 20px;
+}
+
+li img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+p {
+    text-align: center;
+    font-family: 'Source Sans Pro', serif;
+    color: green;
+    font-size: 22px;
+}
