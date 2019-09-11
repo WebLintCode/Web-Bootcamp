@@ -3,8 +3,14 @@ Bootcamp Curriculum
 1) June, July, August
   a) CSS fundamentals
   b) HTML fundamentals
-  c) Javascript fundamentals, basic and intermediate concepts.
+  c) Javascript fundamentals, basics and intermediate concepts.
   d) Git concepts (terminal, commands).
+
+2) September 9th 
+   - DOM Manipulation (createElement, appendChild, etc). 
+   - JSON.
+   - AJAX Make calls against API (Application Programming Interface).
+   - Github User Search Project.
 
 3) September  16th
 
