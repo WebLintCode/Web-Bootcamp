@@ -20,7 +20,8 @@ Bootcamp Curriculum
     - Form validation Project.
 
    b) NodeJS course.
-     Project:
+    
+  Project:
    - Node chat application. 
 
 4) October 14th
