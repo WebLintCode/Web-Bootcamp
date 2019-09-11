@@ -8,7 +8,7 @@ Bootcamp Curriculum
 
 2) September 9th 
    - DOM Manipulation (createElement, appendChild, etc). 
-   - JSON.
+   - JSON (Javascript Object Notation).
    - AJAX Make calls against API (Application Programming Interface).
    - Github User Search Project.
 
