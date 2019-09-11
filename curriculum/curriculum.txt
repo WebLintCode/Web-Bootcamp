@@ -12,7 +12,7 @@ Bootcamp Curriculum
    - AJAX Make calls against API (Application Programming Interface).
    - Github User Search Project.
 
-3) September  16th
+3) September 16th
 
 4) October 14th
 
