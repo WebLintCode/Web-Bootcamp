@@ -32,7 +32,7 @@ var arr = [2,5,8,10,25 , 9];
 		return value < 10;
 	});
 
-	console.log(stevenArray);
+	console.log(stevenArray); // [1,5,8,9]
 
 -------------------------------------------------------------
 find()
@@ -44,7 +44,7 @@ var arr = [2,5,8,10,25 , 9];
 			return value;
 		}
 	});
-console.log(myNumber);
+console.log(myNumber); // 8
 -------------------------------------------------------------
 
 	// Object Literal
@@ -56,10 +56,7 @@ console.log(myNumber);
 
 	// JSON  Javascript Object Notation
 	var authorized = {
-	"authorized": "Yes",
-	"code": "246xyz",
-	"someproperty": 2080
+	   "authorized": "Yes",
+	   "code": "246xyz",
+	   "someproperty": 2080
 	}
-	
-note.txt
-Displaying note.txt.
