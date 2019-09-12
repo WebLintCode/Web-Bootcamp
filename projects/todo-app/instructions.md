@@ -33,6 +33,7 @@ b) Inside your app.js file create 2 functions:
                     myList.removeChild(element);
                 });
 ```      
+        - In this function you must check that if input field is empty we shouldn't add any element to our list.
     b.2 hdlOnKeypress. This function should take the "event" parameter so you can use keyCode inside your function    
             Example:
 ```javascript
