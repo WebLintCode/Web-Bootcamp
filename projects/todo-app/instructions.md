@@ -33,7 +33,9 @@ b) Inside your app.js file create 2 functions:
                     myList.removeChild(element);
                 });
 ```      
-        - NOTE: In this function you must check that if input field is empty we shouldn't add any element to our list. Also evey time you add a new item to your list make sure to clear the input field.
+        - NOTE: 
+            . In this function you must check that if input field is empty we shouldn't add any element to our list.
+            . Also evey time you add a new item to your list make sure to clear the input field.
          Example:
 ```javascript
             document.getElementById('userinput').value = '';
