@@ -16,8 +16,9 @@ b) In your index.html create an input field to allow user to enter a Text.
 
     <div id="info"></div>
 ```
-a) Inside your app.js file create 2 functions
-    - getUserInput
+a) Inside your app.js file create 2 functions:
+
+    a.1 getUserInput
         - Inside this function make sure to get user's input entered in input field
 
             Example: 
@@ -32,7 +33,7 @@ a) Inside your app.js file create 2 functions
                     myList.removeChild(element);
                 });
 ```      
-    - hdlOnKeypress. This function should take the "event" parameter so you can use keyCode inside your function    
+    a.2 hdlOnKeypress. This function should take the "event" parameter so you can use keyCode inside your function    
             Example:
 ```javascript
             var x = event.keyCode;
