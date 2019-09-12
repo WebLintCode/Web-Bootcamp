@@ -34,12 +34,12 @@ b) Inside your app.js file create 2 functions:
                 });
 ```      
         - NOTE: In this function you must check that if input field is empty we shouldn't add any element to our list.
-        
+
     b.2) hdlOnKeypress. This function should take the "event" parameter so you can use keyCode inside your function    
             Example:
 ```javascript
             var x = event.keyCode;
 
-            - If button press by user is "Enter" (event.keyCode === 13), then call getUserInput function.
+            - If user presses on "Enter" button (event.keyCode === 13), then call getUserInput function.
 ```
 
