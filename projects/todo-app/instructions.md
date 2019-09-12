@@ -6,20 +6,24 @@
 5) Make sure to call your external files from index.html
 
 ## Steps:
-```javascript
+
 b) In your index.html create an input field to allow user to enter a Text.
 
     Example:
-
+```html
     <input type="text" onkeypress="hdlonkeypress(event)" id = "userinput">
     <button onclick="getUserInput(event)">Add</button>
 
     <div id="info"></div>
-
+```
 a) Inside your app.js file create 2 functions
     - getUserInput
         - Inside this function make sure to get user's input entered in input field
-            Example: document.getElementById('userinput').value;
+
+            Example: 
+```javascript
+              document.getElementById('userinput').value;
+            ```
         - Create and element "li" so that you can append a text and a button to this "li" element
         - Inside this function use the addEventListener to delete "li" elements
          Example; 
@@ -33,4 +37,3 @@ a) Inside your app.js file create 2 functions
             - If button press by user is "Enter" (event.keyCode === 13), then call getUserInput function.
 
 
-```
