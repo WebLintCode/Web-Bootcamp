@@ -12,7 +12,7 @@ a) In your index.html create an input field to allow user to enter a Text.
     Example:
 ```html
     <input type="text" onkeypress="hdlonkeypress(event)" id = "userinput">
-    <button onclick="getUserInput(event)">Add</button>
+    <button onclick="getUserInput(event)">Add Item</button>
 
     <div id="info"></div>
 ```
