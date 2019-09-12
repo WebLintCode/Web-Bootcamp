@@ -19,3 +19,11 @@ a) Inside your app.js file create 2 functions
     - hdlOnKeypress. This function should take the "event" parameter so you can use keyCode inside your function    
             Example: var x = event.keyCode;
             - If button press by user is "Enter" (event.keyCode === 13), then call getUserInput function.
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
