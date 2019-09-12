@@ -1,6 +1,3 @@
-
-
-Skip to content
 - Array Methods
 
 var arr = [2,5,8,10,25]; // [6 , 15 , 24 , 30 , 75]
