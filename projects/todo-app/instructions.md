@@ -8,6 +8,7 @@
 ## Steps:
 ```javascript
 b) In your index.html create an input field to allow user to enter a Text.
+
     Example:
 
     <input type="text" onkeypress="hdlonkeypress(event)" id = "userinput">
