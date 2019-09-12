@@ -5,7 +5,7 @@
 5) Make sure to call your external files from index.html
 
 Steps:
-b) In your index.html create an input filed to allow user to enter a Text.
+b) In your index.html create an input field to allow user to enter a Text.
 a) Inside your app.js file create 2 functions
     - getUserInput
         - Inside this function make sure to get user's input entered in input field
