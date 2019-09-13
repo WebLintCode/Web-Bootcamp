@@ -45,7 +45,10 @@ b) Inside your app.js file create 2 functions:
 ```javascript
             var x = event.keyCode;
 
-            - If user presses on "Enter" button (event.keyCode === 13), then call getUserInput function.
+            - If user presses on "Enter" button 
+            Example: 
+                 (event.keyCode === 13), 
+             then call getUserInput function.
 ```
 
 c) Finally make sure to style your "li" elements and delete buttons using some CSS.
