@@ -10,7 +10,7 @@ function submitAnswers(){
     // Get reference to form
     var myForm = document.forms["quizForm"];
 
-    // Get answer for quation 1  by attribute name
+    // Get answer for question 1  by attribute name
     document.forms["quizForm"]["q1"].value;
 
     // Form Validation
