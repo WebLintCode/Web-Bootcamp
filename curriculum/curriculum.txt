@@ -14,18 +14,16 @@ Bootcamp Curriculum
 
 3) September 16th
   a) Javascript Advance course.
+  b) Form Validations.
+  c) ES6 - let, const, spread operator, arrow function, and more.
+  b) NodeJS course.
 
   Projects: 
     - Todo app Javascript Project.
     - Form validation Project.
-
-   b) NodeJS course.
-    
-  Project:
-   - Node chat application. 
+    - Node chat application. 
 
 4) October 14th
-  a) ES6 course
   b) Angular course
 
 5) October 29th
