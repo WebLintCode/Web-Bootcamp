@@ -24,7 +24,7 @@ function submitAnswers(){
         Example:
             myForm["q" + i].value 
 
-    3) If user selected an answer and it matches an anwer from answers array then increase score varible.
+    3) If user selected an answer and it matches an anwer from answers array then increase score variable.
        Example: score++  or ++score
 
     4) Finally display score value by using the results id
