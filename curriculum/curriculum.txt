@@ -30,8 +30,8 @@ Bootcamp Curriculum
 
     Project in Angular
       - Create a Service that returns list of users (https://api.github.com/users).
-      - Display their information such asusername, numberOfFollowers and image.
-      - Add an input field to do a search of auser and display him on page.
+      - Display their information such username, numberOfFollowers and image.
+      - Add an input field to do a search of a user and display his information on page.
       - Add a button to display all users on page.
 
 5) October 14th
