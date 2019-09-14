@@ -10,7 +10,9 @@ Bootcamp Curriculum
   a) DOM Manipulation (createElement, appendChild, etc). 
   b) JSON (Javascript Object Notation).
   c) AJAX Make calls against API (Application Programming Interface).
-  d) Github User Search Project.
+
+  Project
+    - Github User Search Project.
 
 3) September 16th
   a) Javascript Advance course.
@@ -23,14 +25,18 @@ Bootcamp Curriculum
     - Form validation Project.
     - Node chat application. 
 
-4) October 14th
-  b) Angular course
+4) October 1st
+  a) Angular course 
 
-5) October 29th
+    Project in Angular
+      - Create a Service that returns list of users (https://api.github.com/users).
+      - Display their information such asusername, numberOfFollowers and image.
+      - Add an input field to do a search of auser and display him on page.
+      - Add a button to display all users on page.
 
-6) November 11th
-
-7) November 25th
+5) October 14th
   - Interview prep.
   - Portafolio.
+
+  
 
