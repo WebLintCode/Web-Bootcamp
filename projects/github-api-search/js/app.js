@@ -12,11 +12,17 @@ function showUsers(){
           for(var i = 0; i < arr.length; i++){
            var element = document.createElement('li');
            var usernameInfo = document.createElement('p');
+           var followers = document.createElement('p');
            var user = document.createTextNode(arr[i].login);
+           var number = document.createTextNode('Followers:' + ' ' +  arr[i].followers_url.length);
+           
 
            element.innerHTML = '<img src=' + arr[i].avatar_url +'/>'; 
 
+           
            usernameInfo.appendChild(user);
+           element.appendChild(followers);
+           followers.appendChild(number);
            element.appendChild(usernameInfo);
            usersList.appendChild(element);
            info.appendChild(usersList);
@@ -41,9 +47,13 @@ function beginSearch(){
             user.innerHTML = '<img src=' + arr[i].avatar_url +'/>';
         
             var usernameInfo = document.createElement('p');
+            var followers = document.createElement('p');
             var username = document.createTextNode(arr[i].login);
+            var number = document.createTextNode('Followers:' + ' ' +  arr[i].followers_url.length);
         
             usernameInfo.appendChild(username);
+            user.appendChild(followers);
+            followers.appendChild(number);
             user.append(usernameInfo);
             usersList.appendChild(user);
             return;
