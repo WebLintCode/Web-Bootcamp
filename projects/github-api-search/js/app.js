@@ -61,11 +61,15 @@ function beginSearch(){
         if(arr[i].login === userInput){
             usersList.innerHTML = ' ';
             var user = document.createElement('li');
+            user.innerHTML = '<img src =' + arr[i].avatar_url + '/>';
+            
             var userFollowers = document.createElement('p');
-            user.innerHTML = '<img src' + arr[i].avatar_url + '/>';
-    
-           user.appendChild(userFollowers)
-
+            var users = document.createTextNode(arr[i].login);
+            
+            
+            userFollowers.appendChild(users);
+           user.appendChild(userFollowers);
+            usersList.appendChild(user);
             return;
         }
                
