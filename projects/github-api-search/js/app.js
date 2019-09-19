@@ -13,15 +13,19 @@ xhttp.onreadystatechange = function(){
         arr = JSON.parse(this.responseText);
 
         for(var i = 0; i < arr.length; i++){
-	        console.log(arr[i].avatar_url && arr[i].followers_url.length)
+	        //console.log(arr[i].avatar_url && arr[i].followers_url.length)
 	
 	        var userElement = document.createElement('li');
-	        var userFollowers = document.createElement ('p');
+            var userFollowers = document.createElement ('p');
+            var followers = document.createElement('p');
+            var followerNum = document.createTextNode('followers' + ' ' + arr[i].followers_url.length);
 	        var user = document.createTextNode(arr[i].login);
 	
 	        userElement.innerHTML = '<img src =' + arr[i].avatar_url + '/>';
 	
             userFollowers.appendChild(user);
+            userElement.appendChild(followers);
+            followers.appendChild(followerNum);
             userElement.appendChild(userFollowers);
             usersList.appendChild(userElement);
             //info.appendChild(usersList);
@@ -62,12 +66,17 @@ function beginSearch(){
             usersList.innerHTML = ' ';
             var user = document.createElement('li');
             user.innerHTML = '<img src =' + arr[i].avatar_url + '/>';
-            
+
+            var followers = document.createElement('p');
+            var followerNum = document.createTextNode('followers' + ' ' + arr[i].followers_url.length);
             var userFollowers = document.createElement('p');
             var users = document.createTextNode(arr[i].login);
             
             
+            
             userFollowers.appendChild(users);
+            user.appendChild(followers);
+            followers.appendChild(followerNum);
            user.appendChild(userFollowers);
             usersList.appendChild(user);
             return;
