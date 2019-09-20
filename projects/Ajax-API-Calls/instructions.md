@@ -39,7 +39,6 @@ a) Create "buildSelectUser" function.
     NOTE: Don't forget to execute this function so it get's call in the beginning of your program.
 ```
 
-```javascript
 
  b) Create "showUserInformation" function. This function should take one parameter (This parameter is the value selected from one of the options). Hint: This value is going to be used in your Ajax call.
     
@@ -53,5 +52,4 @@ a) Create "buildSelectUser" function.
         
         Example:
             document.getElementById('info').innerHTML = website from user.
-```
 
