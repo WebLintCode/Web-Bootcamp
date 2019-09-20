@@ -24,11 +24,13 @@ a) Create "buildSelectUser" function.
            var userOption = document.createElement('option');
 
     - Now below 'option' element add the name of each user.
+
        Example:
            var	userOptionText =  document.createTextNode(...name...);
 
     - Now below this make sure to add "value" attribute to each "option" and the value should be equal to the id of each user. 
         Hint: You can use setAttribute.
+
         Example: 
                 userOption.setAttribute("value", ...userid...);
 
@@ -39,7 +41,7 @@ a) Create "buildSelectUser" function.
     NOTE: Don't forget to execute this function so it get's call in the beginning of your program.
 ```
 
-
+```javascript
  b) Create "showUserInformation" function. This function should take one parameter (This parameter is the value selected from one of the options). Hint: This value is going to be used in your Ajax call.
     
     - Create an Ajax call to get information about selected user. Your API address your look like this:
@@ -52,4 +54,4 @@ a) Create "buildSelectUser" function.
         
         Example:
             document.getElementById('info').innerHTML = website from user.
-
+```
