@@ -37,6 +37,9 @@ a) Create "buildSelectUser" function.
     - That should be all for this function.
     
     NOTE: Don't forget to execute this function so it get's call in the beginning of your program.
+```
+
+```javascript
 
  b) Create "showUserInformation" function. This function should take one parameter (This parameter is the value selected from one of the options). Hint: This value is going to be used in your Ajax call.
     
