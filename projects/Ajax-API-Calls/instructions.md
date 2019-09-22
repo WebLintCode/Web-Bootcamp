@@ -1,6 +1,6 @@
 # Ajax API Calls
 1) Use the following API: 'https://jsonplaceholder.typicode.com/users/'
-2) In your index.html you have 2 divs. First div is going to be used so you can add your select element to it. Second div will be use to display user's email
+2) In your index.html you have 2 divs. First div is going to be used so you can add your select element to it. Second div will be use to display user's website
 
 ## Steps:
 In app.js create 2 functions
