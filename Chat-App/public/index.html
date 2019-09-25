@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chat Application</title>
+        <link rel="stylesheet" href= "styles-css.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+        
+    </head>
+    <body>
+        <div id="welcome-panel">
+            <h2>Welcome to Chat</h2>
+            <input id = "person" type="text" placeholder="Enter Name">
+            <button onclick = "enterChat()"> Enter Chat</button>
+        </div>
+      <div id= "app-chat">
+          <h2 class = "nube box" >Live Chat</h2>
+          <div id="window-messages">
+             <div id="output"></div>
+             <div id="writing-message"> </div>
+
+          </div>
+          <input id = "user" type= "text">
+          <input id = "message" type= "text" placeholder="write a message">
+          <button id = "send">send</button>
+      </div>
+      <script src = "chat.js"></script>
+    </body>
+</html>
