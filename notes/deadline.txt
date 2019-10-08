@@ -1,0 +1,3 @@
+- Angular  (October 29th).
+- Answer Javascript interview questions (November 1st).
+- Javascript Course - Udemy (November 12).
