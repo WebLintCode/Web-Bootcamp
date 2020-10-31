@@ -108,3 +108,16 @@ function print(n) {
 }
 
 console.log(print(4));
+
+
+// test
+
+function sum(a , b) {
+	return a + b; // 7
+}
+
+console.log(sum(2, 5));
+
+
+
+
