@@ -121,4 +121,6 @@ console.log(sum(2, 5));
 // Test 2 
 console.log(window);
 
+console.log(123);
+
 
