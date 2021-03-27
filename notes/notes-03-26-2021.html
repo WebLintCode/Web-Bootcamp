@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+<button onclick="executeAPI()">click me</button>
+
+<div id="info"></div>
+<script>
+	
+
+// var myFunction = (name) => console.log('Hola ', name);
+// myFunction('test');
+
+function executeAPI(){
+    
+	var el = document.getElementById('info');
+
+	// var text = '';
+	// for(var i = 0 ; i < 5; i++){
+	// 	text += "hola "; // hola hola hola
+	// }
+	// console.log(text);
+
+
+    fetch('https://jsonplaceholder.typicode.com/todos')
+     .then((response) => response.json())
+     .then(jsonResponse => {
+     	
+     	for(var i = 0; i < jsonResponse.length; i++){
+     		el.innerHTML += jsonResponse[i].title + "<hr/>";
+     	}
+     });
+}
+
+</script>
+
+</body>
+</html>
