@@ -5,7 +5,8 @@ Study Guide
 2) JSON: Watch videos 1 and 2: https://www.youtube.com/watch?v=iCoTo6n1DYw&list=PLK7sa90aSLe7WJBIy4FGj8Zd6BpfYRaSv
 
 READ The following:
-    - AJAX: https://www.w3schools.com/js/js_ajax_intro.asp
+    - Create elements in Javascript and MORE:
+    https://www.w3schools.com/jsref/met_document_createelement.asp
     - Elements in Javascript: https://www.w3schools.com/js/js_htmldom_elements.asp
     - Events in Javascript:  https://www.w3schools.com/js/js_htmldom_events.asp
     - addEventListener: https://www.w3schools.com/js/js_htmldom_eventlistener.asp
