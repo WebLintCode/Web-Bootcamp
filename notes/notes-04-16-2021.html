@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript</title>
+</head>
+<body>
+<script>
+
+// Hosting: variable declaration are move to the top
+// var is not hoisted
+// let and const are hoisted
+// const- you cannot changed its value
+// let - you can change the value
+
+for(let i = 0; i < 5; i++){
+
+	console.log(i); // 0 1 2 3 4
+
+}
+
+// console.log('-------------');
+console.log(i); // 5
+
+// this 
+// console.log(this); // window
+// ES6
+
+let person = {
+	name: "Steven",
+	hobby: "music",
+	getName: function(){
+		// Template literals (Template strings)
+		// return "I love " + this.hobby
+		return `I love ${this.hobby}`
+	}
+}
+
+console.log(person.getName());
+
+
+let arr = [2,4,6,8,10];
+
+for(let item of arr){
+	if(item < 6){
+		console.log(item);
+	}
+}
+
+// Please watch this video: https://www.youtube.com/watch?v=qx2jXtKGfNY&t=613s
+
+// filter: returns a new array
+let newArray = arr.filter(function(item){
+	 return item < 6;
+});
+
+console.log(newArray); // [2 , 4]
+
+
+// find: return a value
+let result = arr.find(function(item){
+	return item < 8;
+});
+
+console.log(result);
+
+
+// forEach: doesn't return any value
+arr.forEach(function(item){
+	console.log('My number is ' + item);
+});
+
+// map: returns a new array by modifying/changing
+// each element in the array
+
+let newArray2 = arr.map(function(item){
+	return item * 3;
+});
+
+console.log(newArray2);
+
+
+</script>
+
+</body>
+</html>
