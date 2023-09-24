@@ -64,6 +64,13 @@ git clean -f
 git clean -fd (This will also delete untracked folders from git)
 
 ```
+## How to go back to specific branch and delete histor commits:
+
+1) git reset --hard c14809fa
+2) git push -f
+
+This will delete all previous commits even from remote branch
+   
 
 
 
